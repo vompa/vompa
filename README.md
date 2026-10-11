@@ -2,12 +2,14 @@
 
 Ich entwickle **.NET-Backends**, die sicher mit **KI-Agenten** zusammenarbeiten: C#, Datenbanken, Industrie-Anbindung (OPC UA) und das **Model Context Protocol (MCP)**.
 
+**Website:** [vompa.dev](https://vompa.dev) · **Live-Demo:** [demo.vompa.dev](https://demo.vompa.dev) · [LinkedIn](https://www.linkedin.com/in/stephan-emil-jordan-a57084426)
+
 ## Ausgewählte Projekte
 
 | Projekt | Worum es geht | Schwerpunkte |
 |---|---|---|
 | [SqlMcpServer](https://github.com/vompa/SqlMcpServer) | MCP-Server, der einem KI-Agenten kontrollierten Lesezugriff auf eine SQL-Datenbank gibt | SQL-Guard, schreibgeschützte Verbindung, API-Key, Rate Limit, Audit-Log, 89 Tests |
-| [ODataAgentSample](https://github.com/vompa/ODataAgentSample) | Ein OData-v4-Service, umgebaut für KI-Agenten: gleiche Daten, neue Tools | API-Key und OAuth2/JWT, Rollen (reader/writer), Limits, Klartext-Fehler für Agenten, Datenqualitäts-Funde, 112 Tests |
+| [ODataAgentSample](https://github.com/vompa/ODataAgentSample) | Ein OData-v4-Service, umgebaut für KI-Agenten: gleiche Daten, neue Tools | API-Key und OAuth2/JWT, Rollen (reader/writer), Limits, Klartext-Fehler für Agenten, Datenqualitäts-Funde, Live-Demo auf Azure, 217 Tests |
 | [OPCSample](https://github.com/vompa/OPCSample) | OPC-UA-Client mit Rx.NET und persistenter Queue, gehärtet und für Agenten geöffnet | Retry mit Backoff, Idempotenz, Tests ohne OPC-Server, MCP-Zugang, CodeTour |
 | [ODataSample](https://github.com/vompa/ODataSample) | Das Original zu ODataAgentSample: OData-v4-Server und Client-Beispiele in .NET 8 | Ausgangspunkt des Umbaus, Pakete ohne bekannte Schwachstellen, 32 Integrationstests |
 
